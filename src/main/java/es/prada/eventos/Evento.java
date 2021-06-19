@@ -13,7 +13,7 @@ public abstract class Evento {
 	private String lugar;
 	private String ciudad;
 	private String horaEvento;
-	private es.prada.cazador.Persona personaInvitada;
+	private Persona personaInvitada;
 	private Collection<String> comentarios;
 	private TipoEvento tipoEvento;
 
